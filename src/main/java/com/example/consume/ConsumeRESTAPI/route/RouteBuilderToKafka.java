@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 import com.example.consume.ConsumeRESTAPI.processor.MyProcessor;
 
-@Component
+//@Component
 public class RouteBuilderToKafka extends RouteBuilder {
 	
 	@Value(value = "${sourceEndPoint}")
